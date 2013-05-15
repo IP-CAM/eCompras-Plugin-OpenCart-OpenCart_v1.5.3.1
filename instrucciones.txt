@@ -1,0 +1,50 @@
+/*
+
+    OPEN CART v1.5.3.1		
+    eCompras Payment Method 
+    Copyright (c) 2012 Javier León
+    e-mail: schildren@gmail.com
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+
+
+Instalación
+
+1 - Copiar y remplazar las carpetas con todo su contenido:
+
+	catalog/controller/payment/ecompras.php
+	catalog/controller/payment/resources/ecomprasobj.php
+	catalog/model/payment/ecompras.php
+	catalog/language/english/payment/ecompras.php
+	catalog/language/english/payment/resources/ecomprasobj.php
+	catalog/view/theme/default/template/payment/ecompras.tpl
+	admin/controller/payment/ecompras.php
+	admin/language/english/payment/ecompras.php
+	admin/view/template/payment/ecompras.tpl
+	admin/view/image/payment/ecompras.png
+
+2 - Dentro del panel de control nos dirigimos a Extensions/Payments y seleccionamos la opcion de "Install"
+
+3 - Editamos los valores que se requieran, como ser:
+	
+	Nombre de la tienda (ej.): MiTienda.Com
+	ID de tienda (Ej): 1234
+	Llave de comercio (Por defecto):slkrjlk56253%1$?-*(/ 
+ 
+Con esto ya deberia ser funcional
+ 
+ 
+##################################
